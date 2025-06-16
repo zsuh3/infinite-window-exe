@@ -1,0 +1,20 @@
+{
+  "name": "infinite-window-exe",
+  "version": "1.0.0",
+  "description": "> A playful desktop app that spawns your GitHub profile link window in ever-increasing multiples.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsuh3/infinite-window-exe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zsuh3/infinite-window-exe/issues"
+  },
+  "homepage": "https://github.com/zsuh3/infinite-window-exe#readme"
+}
