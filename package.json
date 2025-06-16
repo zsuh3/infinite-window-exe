@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/zsuh3/infinite-window-exe/issues"
   },
-  "homepage": "https://github.com/zsuh3/infinite-window-exe#readme"
+  "homepage": "https://github.com/zsuh3/infinite-window-exe#readme",
+  "devDependencies": {
+    "electron": "^36.4.0"
+  }
 }
