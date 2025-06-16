@@ -5,7 +5,7 @@
 ## 🚀 Features
 
 - Opens a single window showing an image that links to your GitHub.
-- On clicking the “✕” close button, it spawns **2** more windows.
+- On clicking the "✕" close button, it spawns more windows.
 - Each subsequent close doubles the count again (1 → 2 → 4 → 8 …).
 
 ## 💻 Tech Stack
@@ -19,7 +19,7 @@ Built with **Electron** + **Node.js**
 npm install
 # start in dev mode
 npm run start
-````
+```
 
 ## 🛠 Usage
 
