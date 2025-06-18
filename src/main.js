@@ -30,7 +30,7 @@ function createWindow() {
     });
 
 
-    win.loadFile('index.html');
+    win.loadFile(path.join(__dirname, 'index.html'));
 
     win.on('close', e => {
         e.preventDefault();
