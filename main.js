@@ -1,12 +1,22 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, screen } = require('electron');
 const path = require('path');
 
 let windowCount = 0;
 
 function createWindow() {
+    // Get available work area size
+    const { width: sw, height: sh } = screen.getPrimaryDisplay().workAreaSize;
+    const winWidth = 1024;
+    const winHeight = 800;
+
+    // Choose a random x/y so the window stays fully on-screen
+    const x = Math.floor(Math.random() * (sw - winWidth));
+    const y = Math.floor(Math.random() * (sh - winHeight));
+
     const win = new BrowserWindow({
-        width: 1024,
-        height: 800,
+        x, y,
+        width: winWidth,
+        height: winHeight,
         webPreferences: {
             preload: path.join(__dirname, 'preload.js'),
             contextIsolation: true
