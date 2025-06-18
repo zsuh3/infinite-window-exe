@@ -29,7 +29,6 @@ function createWindow() {
         windowCount--;
     });
 
-
     win.loadFile(path.join(__dirname, 'index.html'));
 
     win.on('close', e => {
@@ -48,6 +47,25 @@ function createWindow() {
 
         // Only now destroy the original
         win.destroy();
+    });
+
+    // intercept all "new-window" requests
+    win.webContents.setWindowOpenHandler(({ url }) => {
+        if (url.startsWith('https://github.com/')) {
+            // allow, but override size
+            return {
+                action: 'allow',
+                overrideBrowserWindowOptions: {
+                    width: sw,
+                    height: sh,
+                    webPreferences: {
+                        contextIsolation: true
+                    }
+                }
+            };
+        }
+        // otherwise deny
+        return { action: 'deny' };
     });
 }
 
