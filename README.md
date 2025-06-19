@@ -2,6 +2,10 @@
 
 > A playful desktop app that spawns your GitHub profile link window in ever-increasing multiples.
 
+## 🎯 Inspiration
+
+This project was born from watching **“Holding a Scammer's Computer HOSTAGE”** by Scammer Payback on YouTube ([https://www.youtube.com/watch?v=TEjcEk-1F00](https://www.youtube.com/watch?v=TEjcEk-1F00)). I was inspired by the idea of turning a malicious tactic into a fun, self-hosted experience—and decided to recreate that cascade effect on my own desktop.
+
 ## 🚀 Features
 
 - Opens a single window showing an image that links to your GitHub.
@@ -28,4 +32,4 @@ npm run start
 
 ## 📄 License
 
-This project is MIT-licensed—see the [LICENSE](LICENSE) file for details.
+This project is MIT-licensed — see the [LICENSE](LICENSE) file for details.
