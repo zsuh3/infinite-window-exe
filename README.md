@@ -6,6 +6,12 @@
 > [![release](https://img.shields.io/github/v/release/zsuh3/infinite-window-exe.svg)](https://github.com/zsuh3/infinite-window-exe/releases)
 > [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+## 📥 Downloads
+
+- [macOS (arm64) DMG](https://github.com/zsuh3/infinite-window-exe/releases/download/v1.1.4/Infinite%20Window%20EXE-1.1.4-arm64.dmg)
+- [Windows EXE Installer](https://github.com/zsuh3/infinite-window-exe/releases/download/v1.1.4/Infinite%20Window%20EXE%20Setup%201.1.4.exe)
+- [Linux AppImage](https://github.com/zsuh3/infinite-window-exe/releases/download/v1.1.4/infinite-window-exe-1.1.4.AppImage)
+
 ## 🎯 Inspiration
 
 This project was born from watching **“Holding a Scammer's Computer HOSTAGE”** by Scammer Payback on YouTube ([https://www.youtube.com/watch?v=TEjcEk-1F00](https://www.youtube.com/watch?v=TEjcEk-1F00)). I was inspired by the idea of turning a malicious tactic into a fun, self-hosted experience—and decided to recreate that cascade effect on my own desktop.
