@@ -28,5 +28,5 @@ jobs:
       # - run: npm run lint
       # - run: npm test
 
-      - run: npm run start -- --version
-        name: Smoke-test Electron
+      - run: npm run start -- --version --no-sandbox
+        name: Smoke-test Electron (no sandbox)
