@@ -18,7 +18,7 @@ function createWindow() {
         width: winWidth,
         height: winHeight,
         webPreferences: {
-            preload: path.join(__dirname, 'preload.js'),
+            preload: path.join(__dirname, 'src', 'preload.js'),
             contextIsolation: true
         }
     });
@@ -29,7 +29,7 @@ function createWindow() {
         windowCount--;
     });
 
-    win.loadFile(path.join(__dirname, 'index.html'));
+    win.loadFile(path.join(__dirname, 'src', 'index.html'));
 
     win.on('close', e => {
         e.preventDefault();
