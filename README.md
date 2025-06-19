@@ -3,7 +3,7 @@
 > A playful desktop app that spawns your GitHub profile link window in ever-increasing multiples.
 
 > [![build](https://github.com/zsuh3/infinite-window-exe/actions/workflows/ci.yml/badge.svg)](https://github.com/zsuh3/infinite-window-exe/actions)
-> [![npm version](https://img.shields.io/npm/v/infinite-window-exe.svg)](https://www.npmjs.com/package/infinite-window-exe)
+> [![release](https://img.shields.io/github/v/release/zsuh3/infinite-window-exe.svg)](https://github.com/zsuh3/infinite-window-exe/releases)
 > [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## 🎯 Inspiration
