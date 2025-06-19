@@ -29,10 +29,27 @@ Built with **Electron** + **Node.js**
 ## 🔧 Installation
 
 ```bash
-# install dependencies
+# install dependencies (fresh install)
 npm install
+# or clean install with lockfile
+npm ci
 # start in dev mode
 npm run start
+```
+
+## 📦 Build & Packaging
+
+This project uses `electron-builder` to create distributable binaries. Run the following commands from the project root:
+
+```bash
+# Build all targets (mac, win, linux)
+npm run dist
+
+# Build Linux x64 AppImage & DEB
+npm run dist -- --linux --x64
+
+# Build Windows x64 installer
+npm run dist -- --win --x64
 ```
 
 ## 🛠 Usage
