@@ -30,8 +30,11 @@
       "icon": "assets/icon.icns"
     },
     "linux": {
-      "target": ["AppImage", "deb"],
-      "icon": ["assets/png/512x512.png"]
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "icon": "assets/png/512x512.png"
     }
   },
   "repository": {
