@@ -1,6 +1,6 @@
 {
   "name": "infinite-window-exe",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "> A playful desktop app that spawns your GitHub profile link window in ever-increasing multiples.",
   "main": "main.js",
   "scripts": {
