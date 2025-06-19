@@ -7,6 +7,32 @@
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "build": {
+    "appId": "com.github.zsuh3.infinitewindow",
+    "productName": "Infinite Window EXE",
+    "files": [
+      "build/**/*",
+      "main.js",
+      "index.html",
+      "package.json"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    },
+    "mac": {
+      "category": "public.app-category.utilities",
+      "target": "dmg",
+      "icon": "assets/icon.icns"
+    },
+    "linux": {
+      "target": ["AppImage", "deb"],
+      "icon": ["assets/png/512x512.png"]
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zsuh3/infinite-window-exe.git"
@@ -19,6 +45,7 @@
   },
   "homepage": "https://github.com/zsuh3/infinite-window-exe#readme",
   "devDependencies": {
-    "electron": "^36.4.0"
+    "electron": "^36.4.0",
+    "electron-builder": "^26.0.12"
   }
 }
