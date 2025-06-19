@@ -2,6 +2,10 @@
 
 > A playful desktop app that spawns your GitHub profile link window in ever-increasing multiples.
 
+> [![build](https://github.com/zsuh3/infinite-window-exe/actions/workflows/ci.yml/badge.svg)](https://github.com/zsuh3/infinite-window-exe/actions)
+> [![npm version](https://img.shields.io/npm/v/infinite-window-exe.svg)](https://www.npmjs.com/package/infinite-window-exe)
+> [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 ## 🎯 Inspiration
 
 This project was born from watching **“Holding a Scammer's Computer HOSTAGE”** by Scammer Payback on YouTube ([https://www.youtube.com/watch?v=TEjcEk-1F00](https://www.youtube.com/watch?v=TEjcEk-1F00)). I was inspired by the idea of turning a malicious tactic into a fun, self-hosted experience—and decided to recreate that cascade effect on my own desktop.
