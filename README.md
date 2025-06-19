@@ -8,9 +8,10 @@
 
 ## 📥 Downloads
 
-- [macOS (arm64) DMG](https://github.com/zsuh3/infinite-window-exe/releases/download/v1.1.4/Infinite%20Window%20EXE-1.1.4-arm64.dmg)
-- [Windows EXE Installer](https://github.com/zsuh3/infinite-window-exe/releases/download/v1.1.4/Infinite%20Window%20EXE%20Setup%201.1.4.exe)
-- [Linux AppImage](https://github.com/zsuh3/infinite-window-exe/releases/download/v1.1.4/infinite-window-exe-1.1.4.AppImage)
+- [macOS (arm64) DMG v1.1.5](https://github.com/zsuh3/infinite-window-exe/releases/download/v1.1.5/Infinite%20Window%20EXE-1.1.5-arm64.dmg)
+- [Windows EXE Installer v1.1.5](https://github.com/zsuh3/infinite-window-exe/releases/download/v1.1.5/Infinite%20Window%20EXE%20Setup%201.1.5.exe)
+- [Linux AppImage v1.1.5](https://github.com/zsuh3/infinite-window-exe/releases/download/v1.1.5/Infinite%20Window%20EXE-1.1.5.AppImage)
+- [Linux DEB Package v1.1.5](https://github.com/zsuh3/infinite-window-exe/releases/download/v1.1.5/infinite-window-exe_1.1.5_amd64.deb)
 
 ## 🎯 Inspiration
 
