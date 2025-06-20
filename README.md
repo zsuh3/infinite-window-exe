@@ -57,6 +57,19 @@ npm run dist -- --win --x64
 * Close any window to see two new ones appear.
 * (MVP) Force-quit or add a tray-menu “Quit” option later to escape the cascade.
 
+## 🚢 Release
+
+When you're ready to publish a new version, update the version placeholder (`vx.x.x`) and run:
+
+```bash
+git checkout -b release/vx.x.x
+git add package.json
+git commit -m "chore: bump version to vx.x.x"
+git push -u origin release/vx.x.x
+git tag -a vx.x.x -m "vx.x.x: {feat/docs/chore/bug} - {message}"
+git push origin --tags
+```
+
 ## 📄 License
 
 This project is MIT-licensed — see the [LICENSE](LICENSE) file for details.
